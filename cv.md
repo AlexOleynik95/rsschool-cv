@@ -1,6 +1,8 @@
 # Alexey Oleynik
 ![My photo](https://iili.io/Hiuu4aV.jpg)
 
+*Junior Frontend Developer*
+
 ## Contacts:
 - **Location:** Minsk, Belarus
 - **Phone:** +375 29 xxx xx xx
