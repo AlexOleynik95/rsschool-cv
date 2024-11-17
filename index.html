@@ -27,47 +27,73 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#about-myself" class="nav-link">Myself</a></li>
-          <li class="nav-item"><a href="#soft-skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#contacts" class="link nav-link">
+            Contacts
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#about-myself" class="link nav-link">
+            Myself
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="link nav-link">
+            Skills
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#code" class="link nav-link">
+            Code
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#courses" class="link nav-link">
+            Courses
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#education" class="link nav-link">
+            Education
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#languages" class="link nav-link">
+            Languages
+          </a>
+        </li>
+      </ul>
+    </nav>
 </header>
 <main class="main">
 <div class="container main-container">
   <section class="section section-profile" id="profile">
-    <img src="assets/cv_photo.jpg" alt="My Photo" class="section section-profile-photo">
+    <img src="assets/cv_photo.jpg" alt="My Photo" class="photo">
     <h1 class="section-title main-title">Alexey Oleynik</h1>
     <h2 class="section-subtitle">Junior Front-End Developer</h2>
   </section>
-  <section class="section section-contact" id="contacts">
+  <section class="section section-contacts" id="contacts">
     <h2 class="section-title">📋 Contacts</h2>
-    <ul class="contact-list">
-      <li>
+    <ul class="contacts-list">
+      <li class="section-item">
         <b>🌎 Location:</b> Minsk, Belarus
       </li>
-      <li>
+      <li class="section-item">
         <b>📞 Phone</b>: +375 29 xxx xx xx
       </li>
-      <li>
-        <b>📧 Email</b>: <a href="mailto:slam1247@gmail.com" class="contacts-item" title="email">slam1247@gmail.com</a>
+      <li class="section-item">
+        <b>📧 Email</b>: <a href="mailto:slam1247@gmail.com" class="link" title="email">slam1247@gmail.com</a>
       </li>
-      <li>
+      <li class="section-item">
         <b>👾 Discord</b>: sidewinderxs
       </li>
-      <li>
-        <b>🐱 GitHub</b>: <a href="https://github.com/AlexOleynik95/" class="contacts-item" title="GitHub">AlexOleynik95</a>
+      <li class="section-item">
+        <b>🐱 GitHub</b>: <a href="https://github.com/AlexOleynik95/" class="link" title="GitHub">AlexOleynik95</a>
       </li>
-      <li>
-        <b>💮 CodeWars</b>: <a href="https://www.codewars.com/users/AlexOleynik" class="contacts-item" title="GitHub">AlexOleynik</a>
+      <li class="section-item">
+        <b>💮 CodeWars</b>: <a href="https://www.codewars.com/users/AlexOleynik" class="link" title="GitHub">AlexOleynik</a>
       </li>
     </ul>
   </section>
@@ -83,28 +109,32 @@
       Looking forward to hard but rewarding work.
     </p>
   </section>
-  <section class="section" id="hard-skills">
-    <h2 class="section-title">📚 Hard Skills</h2>
-    <ul class="section-list">
-      <li class="section-item">HTML</li>
-      <li class="section-item">CSS / SASS</li>
-      <li class="section-item">JavaScript</li>
-      <li class="section-item">TypeScript</li>
-      <li class="section-item">Node.js <i>(basic frontend part)</i></li>
-      <li class="section-item">Webpack, Vite</li>
-      <li class="section-item">Figma</li>
-      <li class="section-item">Git</li>
-      <li class="section-item">Python <i>(basic principles)</i></li>
-    </ul>
-  </section>
-  <section class="section" id="soft-skills">
-    <h2 class="section-title">🤝 Soft Skills</h2>
-    <ul class="section-list">
-      <li class="section-item">Quick learner</li>
-      <li class="section-item">High responsibility</li>
-      <li class="section-item">Teamwork-oriented</li>
-      <li class="section-item">Constant professional self-improvement</li>
-    </ul>
+  <section class="section" id="skills">
+    <div class="section-container">
+      <div class="section-sub">
+        <h2 class="section-title">📚 Hard Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">HTML</li>
+          <li class="section-item">CSS / SASS</li>
+          <li class="section-item">JavaScript</li>
+          <li class="section-item">TypeScript</li>
+          <li class="section-item">Node.js <i>(basic frontend part)</i></li>
+          <li class="section-item">Webpack, Vite</li>
+          <li class="section-item">Figma</li>
+          <li class="section-item">Git</li>
+          <li class="section-item">Python <i>(basic principles)</i></li>
+        </ul>
+      </div>
+      <div class="section-sub">
+        <h2 class="section-title">🤝 Soft Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">Quick learner</li>
+          <li class="section-item">High responsibility</li>
+          <li class="section-item">Teamwork-oriented</li>
+          <li class="section-item">Constant professional self-improvement</li>
+        </ul>
+      </div>
+    </div>
   </section>
   <section class="section" id="code">
     <h2 class="section-title">💻 Code Example</h2>
@@ -120,10 +150,9 @@
             }
           }
         }
-      };
-    </pre>
+      };</pre>
     <p>
-      <b>Source:</b> Solution to <a href="https://www.codewars.com/kata/5c743cec901022438549964a" class="contacts-item">Create Iterator Cata</a>
+      <b>Source:</b> Solution to <a href="https://www.codewars.com/kata/5c743cec901022438549964a" class="link">Create Iterator Cata</a>
     </p>
   </section>
   <section class="section" id="courses">
@@ -170,15 +199,15 @@
 </main>
 <footer class="footer">
   <div class="container footer-container">
-    <div>
-      2024
-      <a href="https://github.com/AlexOleynik95/" class="footer-github nav-link">Alexey Oleynik</a>
-    </div>
-    <div>
+      <span>
+        2024
+      </span>
+      <a href="https://github.com/AlexOleynik95/" class="link github-link">
+        Alexey Oleynik
+      </a>
       <a href="https://rs.school/js/">
         <img src="assets/rs_school_js_inverted.png" alt="RSS JS" class="rss-logo">
       </a>
-    </div>
   </div>
 </footer>
 </body>
