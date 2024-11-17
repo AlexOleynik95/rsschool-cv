@@ -1,44 +1,58 @@
 # Alexey Oleynik
 ![My photo](https://iili.io/Hiuu4aV.jpg)
 
-*Junior Frontend Developer*
+## *Junior Frontend Developer*
 
-## Contacts:
-- **Location:** Minsk, Belarus
-- **Phone:** +375 29 xxx xx xx
-- **E-mail:** slam1247@gmail.com
-- **Discord:** sidewinderxs
-- ***[GitHub](https://AlexOleynik95.github.io/)***
-- ***[CodeWars](https://www.codewars.com/users/AlexOleynik)***
-## About Myself
-28 y.o., major in Biology, currently working as molecular biologist.
-Decided to switch jobs as my speciality let me to personal stagnation.
-Looking forward to new horizons and opportunities (and hard but rewarding work).
-## Soft Skills
+## 📋 Contacts:
+- **🌎 Location:** Minsk, Belarus
+- **📞 Phone:** +375 29 xxx xx xx
+- **📧 E-mail:** slam1247@gmail.com
+- **👾 Discord:** sidewinderxs
+- **🐱 GitHub:** *https://AlexOleynik95.github.io*
+- **💮 CodeWars:** *https://www.codewars.com/users/AlexOleynik*
+## 😄 About Myself
+29 y.o., major in Biology, currently working as molecular biologist.
+
+Decided to switch jobs to strive for new opportinities and self-realisation.
+
+Looking forward to hard but rewarding work.
+## 🤝 Soft Skills
 - Quick learner
 - High responsibility
 - Teamwork-oriented
 - Constant professional self-improvement
-## Hard Skills *(work in progress)*
-- JavaScript
-- Angular
+## 📚 Hard Skills
 - HTML
-- CSS
+- CSS / SASS
+- JavaScript
+- TypeScript
+- Node.js *(basic frontend part)*
+- Webpack, Vite
 - Figma
 - Git
-- C++, Python (basic knowledge)
-- ## Code Example
+- Python *(basic principles)*
+- ## 💻 Code Example
 ```
-function fib(n) {
-	return (n <= 1) ? n : fib(n - 1) + fib(n - 2);
-}
+const createIterator = (array) => {
+  return {
+    index: 0,
+    next() {
+      if (this.index < array.length) {
+        return { value: array[this.index++], done: false }
+      } else {
+        return { value: undefined, done: true }
+      }
+    }
+  }
+};
 ```
-## Courses
-- RS School «JavaScript/Front-end» *(in progress)*
-## Education
+## 🏅 Courses
+- RS School «JavaScript/Front-end» 2023Q4
+  - almost completed the course, but didn't get the certificate due to severe time constrains :(
+## 🎓 Education
 - Belarusian State University, Biology Faculty
   - Biochemistry
- ## Languages
+ ## 🗣 Languages
 - Belarusian, Russian - native
 - English - B2/C1
-- Czech - A1 (actively learning)
+- Czech - A2 (actively learning)
